@@ -251,6 +251,7 @@ class GENTRL(nn.Module):
 
         return global_stats
 
+
     def sample(self, num_samples):
         z = self.lp.sample(num_samples, 50 * ['s'] + ['m'])
         smiles = self.dec.sample(50, z, argmax=False)

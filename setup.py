@@ -13,5 +13,5 @@ setup(
         'torch==1.0.1',
         'molsets==0.1.3'
     ],
-    description='Generative Tensorial Reinforcement Learning (GENTRL)',
+    description='GENTRL',
 )
